@@ -1,0 +1,36 @@
+1. Datagrid has paging while Datalist doesnt.
+
+2. Datalist has a property called repeat.
+Direction=vertical/horizontal.(This is of great help in
+designing layouts). This is not there in Datagrid.
+
+3. A repeater is used when more intimate control over html
+generation is required.
+
+4. When only checkboxes/radiobuttons are repeatedly served
+then a checkboxlist or radiobuttonlist are used as they
+involve fewer overheads than a Datagrid.
+
+
+Repeater :
+
+    It contains  Header Template, Item template , alternate
+Item template and footer template . it can't support
+Selection, editing, sorting and paging. this is read only
+and fast.
+
+
+Datalist :
+ 
+   It contains Header Template, Item template , alternate
+Item template , Edit itm template and footer template . it
+can't support  sorting and paging but  support selection and
+editing
+
+
+DataGrid(or GridView) :
+
+It contains Header Template, Item template , alternate Item
+template , Edit itm template and footer template . it can
+support selection, editing , sorting and paging . Mostly
+every developer caught used this control  .
